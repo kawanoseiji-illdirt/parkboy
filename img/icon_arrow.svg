@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="41" height="68" viewBox="0 0 41 68">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dc000c;
+      }
+    </style>
+  </defs>
+  <g id="グループ_4543" data-name="グループ 4543" transform="translate(-684.645 -2911.791)">
+    <path id="多角形_2" data-name="多角形 2" class="cls-1" d="M20.5,0,41,16H0Z" transform="translate(725.645 2927.791) rotate(180)"/>
+    <path id="多角形_3" data-name="多角形 3" class="cls-1" d="M20.5,0,41,16H0Z" transform="translate(725.645 2953.791) rotate(180)"/>
+    <path id="多角形_4" data-name="多角形 4" class="cls-1" d="M20.5,0,41,16H0Z" transform="translate(725.645 2979.791) rotate(180)"/>
+  </g>
+</svg>

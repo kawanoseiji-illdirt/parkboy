@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- swiper読み込み -->
+  <link rel="stylesheet" href="swiper-bundle.min.css"/>
+  <!-- Fontawsome読み込み -->
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <!-- Adobeフォント読み込み -->
+  <script>
+    (function(d) {
+      var config = {
+        kitId: 'aqa3duk',
+        scriptTimeout: 3000,
+        async: true
+      },
+      h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+    })(document);
+  </script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+<header>
+  <div class="header_inner">
+    <div class="header_gyozao_icon">
+      <a href="#"><img class="top_header_gyozao" src="img/icon_gyozao.svg" alt=""></a>
+    </div>
+
+    <h1 class="header_gyozao_logo"><img src="img/gyozao_logo_red.svg" alt="ぎょざおロゴ"></h1>
+    <nav class="gnavi__pc-style">
+      <ul>
+        <li><a href="#">ぎょざおについて</a></li>
+        <li><a href="#">キャラクター紹介</a></li>
+        <li><a href="#">グッズ</a></li>
+        <li><a href="#">お知らせ</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nav>
+
+  <!--768px以下で表示-->
+    <div class="menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav class="gnavi__sp-style">
+      <ul>
+        <li><a href="#">ホーム</a></li>
+        <li><a href="#">ぎょざおについて</a></li>
+        <li><a href="#">キャラクター紹介</a></li>
+        <li><a href="#">グッズ</a></li>
+        <li><a href="#">お知らせ</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  <!--/768px以下で表示-->
+  </div>
+</header>
+
+<div class="top_main_visual">
+  
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide slide1"></div>
+      <div class="swiper-slide slide2"></div>
+      <div class="swiper-slide slide3"></div>
+      <div class="swiper-slide slide4"></div>
+      <div class="swiper-slide slide5"></div>
+      <div class="swiper-slide slide6"></div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <div class="top_main_visual_gyozao_body">
+    <img src="img/gyozao_body.png" alt="">
+  </div>
+  
+  <div class="top_main_visual_scroll animated">
+    <a href="#"><img src="img/icon_scroll.svg" alt=""></a>
+    <div class="dotted_line"></div>
+  </div>
+
+</div>
+
+<div class="sns_side">
+  <p>Follow us</p>
+  <a href="#"><img src="img/icon_instagram_red.svg" alt=""></a>
+  <a href="#"><img src="img/icon_twitter_red.svg" alt=""></a>
+</div>
+
+<div class="contact_btn">
+  <a href="#"><img class="contact_btn_img" src="img/btn-contact.png" alt=""></a>
+</div>
+
+<div class="top_section_line_yellow">　</div>
+<div class="top_concept">
+
+  <img class="top_concept_title" src="img/icon_title.svg" alt="">
+  <h2 class="section_title">はじめまして</h2>
+
+  <div class="top_concept_flex">
+    <div class="top_concept_content">
+      <img src="img/gyozao_top01.png" alt="">
+      <p>白い皮につつまれて。<br>ふっくらむしむしできあがり。<br>こんにちは、ぼく餃子のぎょざお。</p>
+    </div>
+    <div class="top_concept_content_reverse">
+      <img src="img/gyozao_top02.png" alt="">
+      <p>あそぶの大好き。<br>一緒に公園に行こうよ。</p>
+    </div>
+    <div class="top_concept_content">
+      <img src="img/gyozao_top03.png" alt="">
+      <p>いろんなところへおでかけするよ。<br>今日はどこに行こうかな。<br>見かけたら、声かけてね。</p>
+    </div>
+  </div>
+</div>
+
+<div class="top_section_line_white">　</div>
+<div class="top_sns">
+  <img class="top_sns_arrow" src="img/icon_arrow.svg" alt="">
+  <img class="top_sns_icon" src="img/icon_instagram_red.svg" alt="">
+  <p>Instagramからチェックしてみよう！</p>
+  <div class="instagram_feed">
+  </div>
+</div>
+
+<div class="top_news">
+  <img src="img/icon_title.svg" alt="">
+  <h2 class="section_title">お知らせ</h2>
+
+  <div class="top_news_feed">
+    <div class="top_news_item">
+      <img src="img/icon_gyozao.svg" alt="">
+      <div class="news_feed_content">
+        <p class="news_date">2021.01.01</p>
+        <p class="news_category">商品紹介</p>
+        <p class="news_title">新商品できました！2種類のポーチ。使いやすいサイズでどんな場面にも最適かもしれないです。購入はminneの特設ページからご覧くださいお問い合わせもお気軽にどうぞ…</p>
+      </div>
+    </div>
+    <div class="top_news_item">
+      <img src="img/icon_gyozao.svg" alt="">
+      <div class="news_feed_content">
+        <p class="news_date">2021.01.01</p>
+        <p class="news_category">商品紹介</p>
+        <p class="news_title">新商品できました！2種類のポーチ。使いやすいサイズです！</p>
+      </div>
+    </div>
+    <div class="top_news_item">
+      <img src="img/icon_gyozao.svg" alt="">
+      <div class="news_feed_content">
+        <p class="news_date">2021.01.01</p>
+        <p class="news_category">商品紹介</p>
+        <p class="news_title">新商品できました！2種類のポーチ。使いやすいサイズでどんな場面にも最適かもしれない…</p>
+      </div>
+    </div>
+  </div>
+  <a class="top_news_more" href="#">もっとみる</a>
+</div>
+
+<footer>
+  <div class="footer_gyozao">
+    <img src="img/gyozao_footer.png" alt="">
+  </div>
+  <div class="footer_section_line_red">　</div>
+  <div class="footer_inner">
+    <div class="footer_cta">
+      <a href="#"><img src="img/btn-cta01.svg" alt=""></a>
+      <a href="#"><img src="img/btn-cta02.svg" alt=""></a>
+    </div>
+    <ul class="footer_nav">
+      <li><a href="#">ぎょざおについて</a></li>
+      <li><a href="#">キャラクター紹介</a></li>
+      <li><a href="#">グッズ</a></li>
+      <li><a href="#">お知らせ</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+    </ul>
+    <div class="footer_sns">
+    <a href="#"><img src="img/icon_instagram_white.svg" alt=""></a>
+    <a href="#"><img src="img/icon_twitter_white.svg" alt=""></a>
+    </div>
+    <img class="footer_logo" src="img/gyozao_logo_white.svg" alt="">
+    <p class="copyright">© 2021 gyoza.gyozao</p>
+  </div>
+</footer>
+
+<!-- Swiper読み込み -->
+<script src="swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
